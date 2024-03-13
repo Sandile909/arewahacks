@@ -26,9 +26,9 @@ padding: 2.5%;
 }
 .about{
 width: 80%;
-height: 39vh;
+height: 45vh;
 background: url('main.jpg');
-background-size: 95%;
+background-size: 100%;
 margin: 0 auto;
 margin-top: 5%;
 border-radius: 6px;
