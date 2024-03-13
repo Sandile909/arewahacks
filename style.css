@@ -1,0 +1,134 @@
+
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+margin: 0;
+padding: 0;
+outline: none;
+border: none;
+color: white;
+}
+body{
+background: #2F3145;
+text-align: center;
+}
+button, img{
+cursor: pointer;
+transition: 0.4s;
+}
+header{
+width: 100%;
+display: flex;
+justify-content: space-between;
+box-shadow: 0 0 6px black;
+}
+header h3{
+padding: 2.5%;
+}
+.about{
+width: 80%;
+height: 39vh;
+background: url('main.jpg');
+background-size: 95%;
+margin: 0 auto;
+margin-top: 5%;
+border-radius: 6px;
+animation: aboutM 12s infinite ease-in-out;
+}
+@keyframes aboutM{
+0%{
+box-shadow: 0 0 10px red;
+}
+25%{
+box-shadow: 0 0 10px blue;
+}
+50%{
+box-shadow: 0 0 10px red;
+}
+75%{
+box-shadow: 0 0 10px dodgerblue;
+}
+100%{
+box-shadow: 0 0 10px red;
+}
+}
+.aboutText{
+box-shadow: 0 0 5px black;
+width: 92%;
+height: 35.7vh;
+padding: 4%;
+margin: 0 auto;
+margin-top: 5%;
+background: #2F3145;
+border-radius: 6px;
+animation: aboutT 30s infinite ease-in-out;
+}
+@keyframes aboutT{
+0%{
+opacity: 1;
+}
+25%{
+opacity: 0;
+}
+50%{
+opacity: 1;
+}
+75%{
+opacity: 0;
+}
+100%{
+opacity: 1;
+}
+}
+.aboutText h4, .aboutText h3{
+padding: 4% 0%;
+}
+.shop{
+box-shadow: inset 0 0 5px black;
+margin: 0 auto;
+margin-top: 5%;
+width: 89%;
+padding: 4%;
+background
+border-radius: 6px;
+}
+.shop u{
+color: green;
+font-weight: bold;
+}
+.item{
+padding: 4% 16%;
+margin: 0 auto;
+margin-top: 3%;
+width: 50%;
+background: #2F3145;
+border-radius: 6px;
+box-shadow: 0 0 6px #111434;
+}
+.item img{
+width: 100%;
+opacity: 0.8;
+border-radius: 6px;
+}
+.item p{
+margin-top: 8%;
+color: green;
+font-weight: bold;
+}
+.shop button{
+width: 100%;
+height: 4vh;
+color: green;
+margin-top: 3%;
+font-weight: bold;
+border-radius: 4px;
+background: #111434;
+}
+footer{
+margin: 0 auto;
+margin-top: 5%;
+padding: 5% 2%;
+}
+footer em{
+font-weight: bold;
+cursor: pointer;
+}
