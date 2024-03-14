@@ -26,9 +26,8 @@ padding: 2.5%;
 }
 .about{
 width: 80%;
-height: 42vh;
 background: url('main.jpg');
-background-size: 100%;
+background-size: 95%;
 margin: 0 auto;
 margin-top: 5%;
 border-radius: 6px;
@@ -54,7 +53,6 @@ box-shadow: 0 0 10px red;
 .aboutText{
 box-shadow: 0 0 5px black;
 width: 92%;
-height: 35.7vh;
 padding: 4%;
 margin: 0 auto;
 margin-top: 5%;
@@ -88,7 +86,6 @@ margin: 0 auto;
 margin-top: 5%;
 width: 89%;
 padding: 4%;
-background
 border-radius: 6px;
 }
 .shop u{
